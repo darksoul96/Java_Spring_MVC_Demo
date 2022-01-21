@@ -15,23 +15,26 @@
 
 </head>
 <body>
-    <navbar  class="navbar navbar-expand-sm navbar-dark bg-dark menu_nav">
+<header>
+    <navbar class="navbar_container">
 
-        <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link" th:href="@{/index}">Home</a></li>
-            <li class="nav-item"><a class="nav-link" th:href="@{/staff}">Staff</a></li>
-            <li class="nav-item"><a class="nav-link" th:href="@{/contact}">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" th:href="@{/login}">Login</a></li>
+        <ul class="nav_ul">
+            <li><a th:href="@{/index}">Home</a></li>
+            <li><a th:href="@{/staff}">Staff</a></li>
+            <li><a th:href="@{/contact}">Contact</a></li>
+            <li><a th:href="@{/login}">Login</a></li>
         </ul>
     </navbar>
+</header>
 
 
 
-    <div class="welcome_text">
-        <p>
+
+    <div class="hero_section">
+        <h2 class="hero_text">
             Welcome to the home page.
-        </p>
-        <button class="main_button">Press Me!</button>
+        </h2>
+        <button class="main_button">Get to know us!</button>
     </div>
 
 

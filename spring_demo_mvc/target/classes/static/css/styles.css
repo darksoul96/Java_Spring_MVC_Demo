@@ -21,30 +21,46 @@ html {
     padding-top: 8rem;
 }
 
-.menu_nav {
-    font-size: 1.5rem;
-    height: 8vh;
-    justify-content: space-around;
+
+
+
+.nav_ul {
     display: flex;
+    font-size: 1.7rem;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
     flex-direction: row;
+    background: #3e3c3c;
+    list-style: none;
+    margin: 0;
 }
 
-.welcome_text {
-    font-size: calc(2rem + 2vw);
+
+.hero_section {
+    background: url('bg_image.jpg') center center/cover no-repeat;
+    /*background-size: cover;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    height: 92vh;
-    background-color: #1ebab5;
+    height: 90vh;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
 }
 
+.hero_text {
+    font-size: 5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
 .main_button {
-    padding: 2rem 4rem;
-    background: none;
-    border: 0.1rem solid #1efae3;
-    color: green;
+    padding: 1rem 2rem;
+    background: #deb887;
+    border: 0.05rem solid #faebd7;
     font-size: 1.5rem;
-    border-radius: 1rem;
+    border-radius: 0.1rem;
 }

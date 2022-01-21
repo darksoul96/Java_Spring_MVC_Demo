@@ -13,7 +13,7 @@
 
 </head>
 <body>
-<navbar  class="navbar navbar-expand-lg navbar-dark bg-dark">
+<navbar  class="navbar navbar-expand-lg navbar-dark bg-dark menu_nav">
 
     <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
         <li class="nav-item me-3"><a class="nav-link" th:href="@{/index}">Home</a></li>
@@ -29,7 +29,7 @@
 <div class="col"></div>
 <div class="col">
     <form action="#" class="form-group" th:action="@{/employees/add}" method="POST" th:object="${employee}">
-        
+
         <input id="name" class="form-control" type="text" th:field="*{name}" placeholder="name"/>
         <input id="lastName" class="form-control" type="text" th:field="*{lastName}" placeholder="last name"/>
         <input id="email" class="form-control" type="text" th:field="*{email}" placeholder="email"/>
